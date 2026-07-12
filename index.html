@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday itsdekusenpai</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="intro">
+
+        <div class="intro-content">
+
+            <p class="chapter">
+                Birthday Event
+            </p>
+
+            <h1>
+                itsdekusenpai
+            </h1>
+
+            <p class="subtitle-intro">
+                A Special Story Quest Created Just For You
+            </p>
+
+            <div class="begin">
+                Click Anywhere To Begin
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Background -->
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <div class="particles"></div>
+
+    <!-- Main Layout -->
+    <main class="container">
+
+        <!-- Left Side -->
+        <section class="hero">
+
+            <span class="subtitle">
+                COMMISSION RECEIVED
+            </span>
+
+            <h1>
+                Happy 21st Birthday
+            
+            </h1>
+            
+
+            <h2>
+                itsdekusenpai
+            </h2>
+
+            <p>
+                Another year, another adventure awaits.
+            </p>
+
+           
+
+        </section>
+
+        <!-- Right Side Menu -->
+        <aside class="menu-panel">
+
+            <button id="profile-btn">
+                Character Profile
+            </button>
+
+            <button id="quest-btn">
+                Quest Log
+            </button>
+
+
+            <button id="reward-btn">
+                Secret Reward
+            </button>
+
+        </aside>
+
+    </main>
+    
+
+    <!-- ================= PROFILE MODAL ================= -->
+     <div id="quest-modal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-btn quest-close">&times;</button>
+
+        <div class="quest-sidebar">
+
+            <h2>Quest Log</h2>
+
+            <button class="quest-item active" data-quest="0">
+                How We Met
+            </button>
+
+            <button class="quest-item" data-quest="1">
+                Our Memories
+            </button>
+
+            <button class="quest-item" data-quest="2">
+                Happy Birthday
+            </button>
+
+        </div>
+
+       <div class="quest-content">
+
+    <div class="quest-image">
+
+    <button id="prev-image" class="image-nav">❮</button>
+
+    <img id="quest-img" src="img/placeholder.jpg" alt="Quest Image">
+
+    <button id="next-image" class="image-nav">❯</button>
+
+</div>
+
+    <h2 id="quest-title">How We Met</h2>
+
+    <p id="quest-text">
+        Your story will appear here...
+    </p>
+
+</div>
+
+    </div>
+
+</div>
+
+    <div id="profile-modal" class="modal">
+
+        <div class="modal-content">
+
+            <button class="close-btn profile-close">&times;</button>
+            <div class="profile-left">
+
+                <img src="./assets/profile.png" alt="Profile">
+
+            </div>
+
+            <div class="profile-right">
+
+                <span class="rarity">★★★★★</span>
+
+                <h2>itsdekusenpai</h2>
+
+                <h3>The One Who Stole My Heart</h3>
+
+                <div class="stats">
+
+                <div class="stat">
+                    <span>Age</span>
+                    <strong>21</strong>
+                </div>
+
+                <div class="stat">
+                    <span>Birthday</span>
+                    <strong>13 July</strong>
+                </div>
+
+                <div class="stat">
+                    <span>Friendship</span>
+                    <strong>Lv.10 ❤️</strong>
+                </div>
+
+                <div class="stat">
+                    <span>Vision</span>
+                    <strong>Love</strong>
+                </div>
+
+                </div>
+
+                <div class="section">
+
+    <h4>Passive Talent</h4>
+
+    <p>
+        Turns ordinary moments into unforgettable memories, granting +100 Happiness to everyone nearby.
+    </p>
+
+</div>
+
+<div class="section">
+
+    <h4>Character Story</h4>
+
+    <p>
+        Of all the people I've met, you unexpectedly turned out to be my 
+        favorite adventure. Every day with you feels like a 
+        new chapter worth remembering. Happy 21st Birthday. ❤️  
+    </p>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="reward-modal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-btn reward-close">&times;</button>
+
+        <div class="profile-right" style="width:100%; text-align:center;">
+
+            <span class="rarity">★★★★★</span>
+
+            <h2>Reward Obtained</h2>
+
+           
+
+            <div class="section">
+
+                <h4>Love potion</h4>
+
+                <p>
+                    Grants unlimited hugs, kisses,
+                    and unconditional love.❤️
+                </p>
+
+            </div>
+
+            <div class="section">
+
+                <h4>Mistery Gift</h4>
+
+                <p>
+                    This item will be available soon...
+                
+                    
+                </p>
+                <p>(when we meet in person❤️)</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<audio id="bg-music" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+<div id="toast">
+    ❤️ Thank you for being part of my story.
+</div>
+    <!-- همیشه اسکریپت آخر باشه -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
