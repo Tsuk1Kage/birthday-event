@@ -141,7 +141,14 @@ rewardModal.addEventListener("click",(e)=>{
                 "img/q2-2.jpg",
                 "img/q2-3.jpg",
                 "img/q2-4.jpg",
-                "img/q2-5.jpg"
+                "img/q2-5.jpg",
+                "img/q2-6.jpg",
+                "img/q2-7.jpg",
+                "img/q2-8.jpg",
+                "img/q2-9.jpg",
+                "img/q2-10.jpg",
+                "img/q2-11.jpg",
+                "img/q2-12.jpg"
             ]
         },
 
